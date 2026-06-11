@@ -1,0 +1,4 @@
+git status          ← shows what has changed
+git add notes.txt   ← stages the file
+git commit -m "Add day 2 notes"   ← saves with a message
+git push            ← sends to GitHub
