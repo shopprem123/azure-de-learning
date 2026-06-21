@@ -1,0 +1,6 @@
+[
+    {"pipeline": "ingest_titanic", "run_date": "2024-01-15", "status": "success", "rows_loaded": 891, "duration_seconds": 45},
+    {"pipeline": "ingest_sales", "run_date": "2024-01-15", "status": "failed", "rows_loaded": 0, "duration_seconds": 12},
+    {"pipeline": "transform_orders", "run_date": "2024-01-15", "status": "success", "rows_loaded": 45230, "duration_seconds": 180},
+    {"pipeline": "ingest_customers", "run_date": "2024-01-15", "status": "success", "rows_loaded": 12800, "duration_seconds": 90}
+]
