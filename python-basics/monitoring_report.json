@@ -1,0 +1,25 @@
+{
+  "report_generated": "2024-01-15",
+  "total_runs": 4,
+  "by_status": {
+    "success": {
+      "count": 3,
+      "total_duration": 315,
+      "pipelines": [
+        "ingest_titanic",
+        "transform_orders",
+        "ingest_customers"
+      ],
+      "avg_duration_seconds": 105.0
+    },
+    "failed": {
+      "count": 1,
+      "total_duration": 12,
+      "pipelines": [
+        "ingest_sales"
+      ],
+      "avg_duration_seconds": 12.0
+    }
+  },
+  "health": "DEGRADED"
+}
