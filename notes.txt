@@ -2,3 +2,15 @@ git status          ← shows what has changed
 git add notes.txt   ← stages the file
 git commit -m "Add day 2 notes"   ← saves with a message
 git push            ← sends to GitHub
+
+    What does Bronze mean? What data lives there?
+    This is the stagin layer where information from the source systems are parked as raw appends in structures leaning closer to how it is sent by the source. This is used for archiving and also to enable any future retrieval of the same data source files for any future requirements.
+
+    What does Silver mean? What transformation happens between Bronze and Silver?
+    This layer contains cleaned, deduped data from the Bronze layer which is corealted with the existing org schema, normalized and identified for use by advance data analysis, data engineering and analytics purposes.
+
+    What does Gold mean? Who uses Gold data?
+    This layer consists of a more denormalized aggregate information built for easy selects and reporting purposes. Moslty Star schema with quantities and keys driven fact/dimensions tables.
+
+    Why is this better than a single staging area?
+    This enables data from multiple sources, of multiple structured and unstructured types to coexist at cheap cost and scale easily as the company data estate grows.

@@ -1,0 +1,14 @@
+{
+  "run_date": "2024-01-15",
+  "total_pipelines": 4,
+  "successful": 3,
+  "failed": 1,
+  "total_rows_loaded": 58921,
+  "success_rate_pct": 75.0,
+  "failures": [
+    {
+      "pipeline": "ingest_sales",
+      "duration": 12
+    }
+  ]
+}
